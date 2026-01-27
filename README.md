@@ -5,6 +5,7 @@ A machine learning project implementing logistic regression from scratch to pred
 ## Overview
 
 This project performs a complete analysis pipeline for heart disease prediction:
+
 - Data loading and preprocessing
 - Exploratory Data Analysis (EDA)
 - Feature engineering and selection
@@ -35,10 +36,12 @@ This project performs a complete analysis pipeline for heart disease prediction:
 ## Notebook Contents
 
 ### 1. Data Loading & Target Binarization
+
 - Load CSV into Pandas DataFrame
 - Map target column: `Presence` → 1, `Absence` → 0
 
 ### 2. Exploratory Data Analysis (EDA)
+
 - Summary statistics and data info
 - Missing values check (none found)
 - Outlier detection using IQR method
@@ -46,6 +49,7 @@ This project performs a complete analysis pipeline for heart disease prediction:
 - Class distribution visualization (bar chart & pie chart)
 
 ### 3. Data Preparation
+
 - **Feature Selection (6 features):**
   - Age, BP, Cholesterol, Max HR, ST depression, Number of vessels fluro
 - **Stratified Train/Test Split (70/30):**
