@@ -10,6 +10,7 @@ This project performs a complete analysis pipeline for heart disease prediction:
 - Exploratory Data Analysis (EDA)
 - Feature engineering and selection
 - Custom train/test split and normalization
+- Logistic regression from scratch (sigmoid, cost, gradient descent)
 - **No high-level ML libraries** (scikit-learn, statsmodels, TensorFlow, PyTorch) are used
 
 ## Dataset
@@ -57,6 +58,15 @@ This project performs a complete analysis pipeline for heart disease prediction:
   - Training: 189 samples | Test: 81 samples
 - **Min-Max Normalization:**
   - Custom implementation scaling features to [0, 1]
+
+### 4. Logistic Regression 
+
+- Sigmoid activation, binary cross-entropy cost
+- Gradient descent training with cost tracking
+- Cost vs. iteration plot
+- Predictions with threshold 0.5
+- Metrics reported on train/test: accuracy, precision, recall, F1
+- Coefficient table for basic interpretation
 
 ## Results Summary
 
