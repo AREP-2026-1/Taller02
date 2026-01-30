@@ -286,8 +286,4 @@ The complete notebook was successfully uploaded and executed in SageMaker Studio
 
 ## Author
 
-AREP-2026-1
-
-## License
-
-This project is for educational purposes.
+David Salomón Baena Rubio
